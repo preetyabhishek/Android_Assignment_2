@@ -1,0 +1,12 @@
+/Users/mandeepsingh/Android_Assignment_2/Android_Assignment_2/obj/Debug/net6.0-android/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+/Users/mandeepsingh/Android_Assignment_2/Android_Assignment_2/obj/Debug/net6.0-android/build.props
+/Users/mandeepsingh/Android_Assignment_2/Android_Assignment_2/obj/Debug/net6.0-android/adb.props
+/Users/mandeepsingh/Android_Assignment_2/Android_Assignment_2/obj/Debug/net6.0-android/Android_Assignment_2.csproj.AssemblyReference.cache
+/Users/mandeepsingh/Android_Assignment_2/Android_Assignment_2/obj/Debug/net6.0-android/mauiimage.inputs
+/Users/mandeepsingh/Android_Assignment_2/Android_Assignment_2/obj/Debug/net6.0-android/mauifont.inputs
+/Users/mandeepsingh/Android_Assignment_2/Android_Assignment_2/obj/Debug/net6.0-android/mauisplash.inputs
+/Users/mandeepsingh/Android_Assignment_2/Android_Assignment_2/obj/Debug/net6.0-android/resizetizer/sp/maui_colors.xml
+/Users/mandeepsingh/Android_Assignment_2/Android_Assignment_2/obj/Debug/net6.0-android/resizetizer/sp/maui_splash_image.xml
+/Users/mandeepsingh/Android_Assignment_2/Android_Assignment_2/obj/Debug/net6.0-android/mauisplash.stamp
+/Users/mandeepsingh/Android_Assignment_2/Android_Assignment_2/obj/Debug/net6.0-android/mauifont.stamp
+/Users/mandeepsingh/Android_Assignment_2/Android_Assignment_2/obj/Debug/net6.0-android/mauiimage.stamp

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZVnQ7CjIGmx3cJ+d1TKaTqgonETgSXglG2bZQ8e8q1YFEfs3D35sGZxrI+0xxipafYq+PdCg/5S66S5oS2Y7Bg==",
+  "dgSpecHash": "FHr7bBTtbPV7KqssWk78W0PKL7sTDs7O60E+cH13jpPCjEEWekqOf+4FkpT6Ut9dQvsQhAbfZ30KbD9PX+aK6w==",
   "success": true,
-  "projectFilePath": "/Users/mandeepsingh/Projects/Android_Assignment_2/Android_Assignment_2/Android_Assignment_2.csproj",
+  "projectFilePath": "/Users/mandeepsingh/Android_Assignment_2/Android_Assignment_2/Android_Assignment_2.csproj",
   "expectedPackageFiles": [
     "/Users/mandeepsingh/.nuget/packages/googlegson/2.9.0.1/googlegson.2.9.0.1.nupkg.sha512",
     "/Users/mandeepsingh/.nuget/packages/microsoft.extensions.configuration/6.0.1/microsoft.extensions.configuration.6.0.1.nupkg.sha512",
