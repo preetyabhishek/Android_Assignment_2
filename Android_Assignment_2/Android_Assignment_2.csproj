@@ -48,4 +48,16 @@
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Remove="CommunityToolkit.Mvvm" />
+	  <None Remove="Microsoft.Maui.Dependencies" />
+	  <None Remove="Microsoft.Maui.Extensions" />
+	  <None Remove="Microsoft.Toolkit" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
+	  <PackageReference Include="Microsoft.Maui.Dependencies" Version="6.0.547" />
+	  <PackageReference Include="Microsoft.Maui.Extensions" Version="6.0.547" />
+	  <PackageReference Include="Microsoft.Toolkit" Version="7.1.2" />
+	</ItemGroup>
 </Project>

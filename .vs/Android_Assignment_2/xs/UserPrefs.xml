@@ -1,47 +1,49 @@
 ﻿<Properties StartupConfiguration="{23DAFB35-316B-4FB2-B85E-68A62B15FD3C}|Default">
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_4a_-_api_33" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../Downloads/Archive/Models/Holiday.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Android_Assignment_2/MainPage.xaml">
     <Files>
-      <File FileName="Android_Assignment_2/Services/HolidayDataStoreAPI.cs" Line="10" Column="2" />
-      <File FileName="Android_Assignment_2/Services/WebClientService.cs" Line="4" Column="31" />
-      <File FileName="Android_Assignment_2/ViewModels/HolidayListViewModel.cs" Line="26" Column="10" />
-      <File FileName="Android_Assignment_2/Views/MainPage.xaml" Line="31" Column="15" />
-      <File FileName="Android_Assignment_2/Services/IWebClientService.cs" Line="4" Column="32" />
-      <File FileName="Android_Assignment_2/Services/IHolidayDataStore.cs" Line="14" Column="2" />
-      <File FileName="Android_Assignment_2/Resources/Styles/Colors.xaml" Line="1" Column="1" />
-      <File FileName="Android_Assignment_2/Resources/Styles/Styles.xaml" Line="1" Column="1" />
-      <File FileName="Android_Assignment_2/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="Android_Assignment_2/Services/HolidayDataStoreAPI.cs" />
+      <File FileName="Android_Assignment_2/Services/WebClientService.cs" />
+      <File FileName="Android_Assignment_2/ViewModels/HolidayListViewModel.cs" />
+      <File FileName="Android_Assignment_2/Views/MainPage.xaml" />
+      <File FileName="Android_Assignment_2/Services/IWebClientService.cs" />
+      <File FileName="Android_Assignment_2/Services/IHolidayDataStore.cs" />
+      <File FileName="Android_Assignment_2/Resources/Styles/Colors.xaml" />
+      <File FileName="Android_Assignment_2/Resources/Styles/Styles.xaml" />
+      <File FileName="Android_Assignment_2/Properties/launchSettings.json" />
       <File FileName="Android_Assignment_2/Platforms/Android/AndroidManifest.xml" />
-      <File FileName="Android_Assignment_2/Platforms/Android/MainActivity.cs" Line="1" Column="1" />
-      <File FileName="Android_Assignment_2/Platforms/Android/MainApplication.cs" Line="1" Column="1" />
-      <File FileName="Android_Assignment_2/Model/Holiday.cs" Line="1" Column="1" />
-      <File FileName="Android_Assignment_2/Model/Province.cs" Line="14" Column="24" />
-      <File FileName="Android_Assignment_2/App.xaml" Line="1" Column="1" />
-      <File FileName="Android_Assignment_2/AppShell.xaml" Line="1" Column="1" />
+      <File FileName="Android_Assignment_2/Platforms/Android/MainActivity.cs" />
+      <File FileName="Android_Assignment_2/Platforms/Android/MainApplication.cs" />
+      <File FileName="Android_Assignment_2/Model/Holiday.cs" />
+      <File FileName="Android_Assignment_2/Model/Province.cs" />
+      <File FileName="Android_Assignment_2/App.xaml" />
+      <File FileName="Android_Assignment_2/AppShell.xaml" />
       <File FileName="Android_Assignment_2/MainPage.xaml" Line="1" Column="1" />
-      <File FileName="Android_Assignment_2/MauiProgram.cs" Line="1" Column="1" />
-      <File FileName="Android_Assignment_2/Platforms/Tizen/Main.cs" Line="1" Column="1" />
-      <File FileName="Android_Assignment_2/Platforms/Tizen/tizen-manifest.xml" Line="1" Column="1" />
-      <File FileName="Android_Assignment_2/Platforms/Windows/app.manifest" Line="1" Column="1" />
-      <File FileName="Android_Assignment_2/Platforms/Windows/App.xaml" Line="1" Column="1" />
-      <File FileName="Android_Assignment_2/Platforms/Windows/Package.appxmanifest" Line="1" Column="1" />
-      <File FileName="Android_Assignment_2/App.xaml.cs" Line="1" Column="1" />
-      <File FileName="Android_Assignment_2/AppShell.xaml.cs" Line="1" Column="1" />
-      <File FileName="../Downloads/Archive/Models/Holiday.cs" Line="35" Column="2" />
-      <File FileName="Android_Assignment_2/Model/APIResponse.cs" Line="16" Column="1" />
+      <File FileName="Android_Assignment_2/MauiProgram.cs" />
+      <File FileName="Android_Assignment_2/Platforms/Tizen/Main.cs" />
+      <File FileName="Android_Assignment_2/Platforms/Tizen/tizen-manifest.xml" />
+      <File FileName="Android_Assignment_2/Platforms/Windows/app.manifest" />
+      <File FileName="Android_Assignment_2/Platforms/Windows/App.xaml" />
+      <File FileName="Android_Assignment_2/Platforms/Windows/Package.appxmanifest" />
+      <File FileName="Android_Assignment_2/App.xaml.cs" />
+      <File FileName="Android_Assignment_2/AppShell.xaml.cs" />
+      <File FileName="../Downloads/Archive/Models/Holiday.cs" />
+      <File FileName="Android_Assignment_2/Model/APIResponse.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Android_Assignment_2" expanded="True" selected="True">
+          <Node name="Android_Assignment_2" expanded="True">
             <Node name="Android_Assignment_2" expanded="True">
-              <Node name="Dependencies" expanded="True" />
+              <Node name="Dependencies" expanded="True" selected="True" />
               <Node name="Model" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="Styles" expanded="True" />
+              </Node>
               <Node name="Services" expanded="True" />
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True" />
@@ -53,6 +55,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Android__Assignment__2 PreferredExecutionTarget="Android.pixel_4a_-_api_33" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_5_API_28" />
+  <MonoDevelop.Ide.ItemProperties.Android__Assignment__2 PreferredExecutionTarget="Android.Pixel_5_API_28" />
 </Properties>

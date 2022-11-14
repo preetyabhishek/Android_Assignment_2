@@ -1,5 +1,5 @@
 ﻿using Android_Assignment_2.Services;
-using Applied_Activity_2.Model;
+using Android_Assignment_2.Model;
 using MvvmHelpers;
 using MvvmHelpers.Commands;
 
