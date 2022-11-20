@@ -53,11 +53,17 @@
 	  <None Remove="Microsoft.Maui.Dependencies" />
 	  <None Remove="Microsoft.Maui.Extensions" />
 	  <None Remove="Microsoft.Toolkit" />
+	  <None Remove="Newtonsoft.Json" />
+	  <None Remove="Refractored.MvvmHelpers" />
+	  <None Remove="CommunityToolkit.Maui" />
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
 	  <PackageReference Include="Microsoft.Maui.Dependencies" Version="6.0.547" />
 	  <PackageReference Include="Microsoft.Maui.Extensions" Version="6.0.547" />
 	  <PackageReference Include="Microsoft.Toolkit" Version="7.1.2" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+	  <PackageReference Include="Refractored.MvvmHelpers" Version="1.6.2" />
+	  <PackageReference Include="CommunityToolkit.Maui" Version="1.3.0" />
 	</ItemGroup>
 </Project>

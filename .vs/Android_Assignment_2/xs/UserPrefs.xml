@@ -1,5 +1,6 @@
 ﻿<Properties StartupConfiguration="{23DAFB35-316B-4FB2-B85E-68A62B15FD3C}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Android__Assignment__2 PreferredExecutionTarget="Android.Pixel_5_API_28" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -23,7 +24,6 @@
       <File FileName="Android_Assignment_2/AppShell.xaml" />
       <File FileName="Android_Assignment_2/MainPage.xaml" Line="1" Column="1" />
       <File FileName="Android_Assignment_2/MauiProgram.cs" />
-      <File FileName="Android_Assignment_2/Platforms/Tizen/Main.cs" />
       <File FileName="Android_Assignment_2/Platforms/Tizen/tizen-manifest.xml" />
       <File FileName="Android_Assignment_2/Platforms/Windows/app.manifest" />
       <File FileName="Android_Assignment_2/Platforms/Windows/App.xaml" />
@@ -32,16 +32,22 @@
       <File FileName="Android_Assignment_2/AppShell.xaml.cs" />
       <File FileName="../Downloads/Archive/Models/Holiday.cs" />
       <File FileName="Android_Assignment_2/Model/APIResponse.cs" />
+      <File FileName="Android_Assignment_2/Platforms/Tizen/Main.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Android_Assignment_2" expanded="True">
             <Node name="Android_Assignment_2" expanded="True">
-              <Node name="Dependencies" expanded="True" selected="True" />
+              <Node name="Dependencies" expanded="True" />
               <Node name="Model" expanded="True" />
+              <Node name="Platforms" expanded="True">
+                <Node name="Tizen" expanded="True" />
+                <Node name="Windows" expanded="True" />
+              </Node>
               <Node name="Properties" expanded="True" />
               <Node name="Resources" expanded="True">
+                <Node name="Splash" expanded="True" />
                 <Node name="Styles" expanded="True" />
               </Node>
               <Node name="Services" expanded="True" />
@@ -49,6 +55,7 @@
               <Node name="Views" expanded="True" />
               <Node name="App.xaml" expanded="True" />
               <Node name="AppShell.xaml" expanded="True" />
+              <Node name="MainPage.xaml" selected="True" />
             </Node>
           </Node>
         </State>
@@ -58,5 +65,4 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_5_API_28" />
-  <MonoDevelop.Ide.ItemProperties.Android__Assignment__2 PreferredExecutionTarget="Android.Pixel_5_API_28" />
 </Properties>

@@ -1,5 +1,5 @@
 ﻿using System;
-namespace CanadaHoliday.Model
+namespace Android_Assignment_2.Model
 {
 	public class Holiday
 	{

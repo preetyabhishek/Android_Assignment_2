@@ -2,6 +2,35 @@
   "version": 3,
   "targets": {
     "net6.0-android31.0": {
+      "CommunityToolkit.Maui/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.3.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.0.0": {
         "type": "package",
         "compile": {
@@ -224,6 +253,35 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -257,6 +315,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.12.0.8": {
@@ -1975,6 +2042,35 @@
       }
     },
     "net6.0-android31.0/android-arm": {
+      "CommunityToolkit.Maui/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.3.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.0.0": {
         "type": "package",
         "compile": {
@@ -2197,6 +2293,35 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -2230,6 +2355,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.12.0.8": {
@@ -3948,6 +4082,35 @@
       }
     },
     "net6.0-android31.0/android-arm64": {
+      "CommunityToolkit.Maui/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.3.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.0.0": {
         "type": "package",
         "compile": {
@@ -4170,6 +4333,35 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -4203,6 +4395,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.12.0.8": {
@@ -5921,6 +6122,35 @@
       }
     },
     "net6.0-android31.0/android-x64": {
+      "CommunityToolkit.Maui/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.3.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.0.0": {
         "type": "package",
         "compile": {
@@ -6143,6 +6373,35 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -6176,6 +6435,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.12.0.8": {
@@ -7894,6 +8162,35 @@
       }
     },
     "net6.0-android31.0/android-x86": {
+      "CommunityToolkit.Maui/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.3.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.0.0": {
         "type": "package",
         "compile": {
@@ -8116,6 +8413,35 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -8149,6 +8475,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.12.0.8": {
@@ -9867,6 +10202,35 @@
       }
     },
     "net6.0-android31.0/iossimulator-x64": {
+      "CommunityToolkit.Maui/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.3.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.0.0": {
         "type": "package",
         "compile": {
@@ -10089,6 +10453,35 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -10122,6 +10515,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.12.0.8": {
@@ -11840,6 +12242,35 @@
       }
     },
     "net6.0-android31.0/maccatalyst-x64": {
+      "CommunityToolkit.Maui/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.3.0"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.0.0": {
         "type": "package",
         "compile": {
@@ -12062,6 +12493,35 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -12095,6 +12555,15 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.12.0.8": {
@@ -13813,6 +14282,39 @@
       }
     },
     "net6.0-ios15.4": {
+      "CommunityToolkit.Maui/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.3.0",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.0.0": {
         "type": "package",
         "compile": {
@@ -14011,6 +14513,35 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -14052,10 +14583,52 @@
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
     "net6.0-ios15.4/android-arm": {
+      "CommunityToolkit.Maui/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.3.0",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.0.0": {
         "type": "package",
         "compile": {
@@ -14254,6 +14827,35 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -14295,10 +14897,52 @@
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
     "net6.0-ios15.4/android-arm64": {
+      "CommunityToolkit.Maui/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.3.0",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.0.0": {
         "type": "package",
         "compile": {
@@ -14497,6 +15141,35 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -14538,10 +15211,52 @@
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
     "net6.0-ios15.4/android-x64": {
+      "CommunityToolkit.Maui/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.3.0",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.0.0": {
         "type": "package",
         "compile": {
@@ -14740,6 +15455,35 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -14781,10 +15525,52 @@
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
     "net6.0-ios15.4/android-x86": {
+      "CommunityToolkit.Maui/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.3.0",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.0.0": {
         "type": "package",
         "compile": {
@@ -14983,6 +15769,35 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -15024,10 +15839,52 @@
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
     "net6.0-ios15.4/iossimulator-x64": {
+      "CommunityToolkit.Maui/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.3.0",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.0.0": {
         "type": "package",
         "compile": {
@@ -15226,6 +16083,35 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -15267,10 +16153,52 @@
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
     "net6.0-ios15.4/maccatalyst-x64": {
+      "CommunityToolkit.Maui/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.3.0",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.0.0": {
         "type": "package",
         "compile": {
@@ -15469,6 +16397,35 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -15510,10 +16467,52 @@
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
     "net6.0-maccatalyst15.4": {
+      "CommunityToolkit.Maui/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.3.0",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.0.0": {
         "type": "package",
         "compile": {
@@ -15714,6 +16713,35 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -15755,10 +16783,52 @@
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
     "net6.0-maccatalyst15.4/android-arm": {
+      "CommunityToolkit.Maui/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.3.0",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.0.0": {
         "type": "package",
         "compile": {
@@ -15959,6 +17029,35 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -16000,10 +17099,52 @@
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
     "net6.0-maccatalyst15.4/android-arm64": {
+      "CommunityToolkit.Maui/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.3.0",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.0.0": {
         "type": "package",
         "compile": {
@@ -16204,6 +17345,35 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -16245,10 +17415,52 @@
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
     "net6.0-maccatalyst15.4/android-x64": {
+      "CommunityToolkit.Maui/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.3.0",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.0.0": {
         "type": "package",
         "compile": {
@@ -16449,6 +17661,35 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -16490,10 +17731,52 @@
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
     "net6.0-maccatalyst15.4/android-x86": {
+      "CommunityToolkit.Maui/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.3.0",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.0.0": {
         "type": "package",
         "compile": {
@@ -16694,6 +17977,35 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -16735,10 +18047,52 @@
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
     "net6.0-maccatalyst15.4/iossimulator-x64": {
+      "CommunityToolkit.Maui/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.3.0",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.0.0": {
         "type": "package",
         "compile": {
@@ -16939,6 +18293,35 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -16980,10 +18363,52 @@
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
     "net6.0-maccatalyst15.4/maccatalyst-x64": {
+      "CommunityToolkit.Maui/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "1.3.0",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.0.0": {
         "type": "package",
         "compile": {
@@ -17184,6 +18609,35 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -17225,11 +18679,69 @@
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     }
   },
   "libraries": {
+    "CommunityToolkit.Maui/1.3.0": {
+      "sha512": "k+5ZeQWlsJlfRK55OGM0d2Is7woSfg3gi71k4kPtXSVnueLn2svbojsVjj2fFSd6aI2+RiKwgYJdvX+9CNkErg==",
+      "type": "package",
+      "path": "communitytoolkit.maui/1.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ReadMe.txt",
+        "analyzers/dotnet/cs/CommunityToolkit.Maui.Analyzers.CodeFixes.dll",
+        "analyzers/dotnet/cs/CommunityToolkit.Maui.Analyzers.dll",
+        "analyzers/dotnet/cs/CommunityToolkit.Maui.SourceGenerators.dll",
+        "communitytoolkit.maui.1.3.0.nupkg.sha512",
+        "communitytoolkit.maui.nuspec",
+        "icon.png",
+        "lib/net6.0-android31.0/CommunityToolkit.Maui.dll",
+        "lib/net6.0-android31.0/CommunityToolkit.Maui.xml",
+        "lib/net6.0-ios15.4/CommunityToolkit.Maui.dll",
+        "lib/net6.0-ios15.4/CommunityToolkit.Maui.xml",
+        "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.dll",
+        "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.xml",
+        "lib/net6.0-windows10.0.19041/CommunityToolkit.Maui.dll",
+        "lib/net6.0-windows10.0.19041/CommunityToolkit.Maui.xml",
+        "lib/net6.0/CommunityToolkit.Maui.dll",
+        "lib/net6.0/CommunityToolkit.Maui.xml"
+      ]
+    },
+    "CommunityToolkit.Maui.Core/1.3.0": {
+      "sha512": "/uFFeiMp8vXNdLoIi2XbDT4ddjA6fx3YrxdDKwZVUTMMghpEa2Y50PmpaEnFrmTZmYNpqgpFm3X+NGPFjoe2Ng==",
+      "type": "package",
+      "path": "communitytoolkit.maui.core/1.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ReadMe.txt",
+        "communitytoolkit.maui.core.1.3.0.nupkg.sha512",
+        "communitytoolkit.maui.core.nuspec",
+        "icon.png",
+        "lib/net6.0-android31.0/CommunityToolkit.Maui.Core.dll",
+        "lib/net6.0-android31.0/CommunityToolkit.Maui.Core.xml",
+        "lib/net6.0-ios15.4/CommunityToolkit.Maui.Core.dll",
+        "lib/net6.0-ios15.4/CommunityToolkit.Maui.Core.xml",
+        "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.Core.dll",
+        "lib/net6.0-maccatalyst15.4/CommunityToolkit.Maui.Core.xml",
+        "lib/net6.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll",
+        "lib/net6.0-windows10.0.19041/CommunityToolkit.Maui.Core.xml",
+        "lib/net6.0/CommunityToolkit.Maui.Core.dll",
+        "lib/net6.0/CommunityToolkit.Maui.Core.xml"
+      ]
+    },
     "CommunityToolkit.Mvvm/8.0.0": {
       "sha512": "Jiu2g5WUdXRwzhJkHB+B4JBKP5A5+fp8xKiW/ZQo5PI+DruI7MbPEcK9K/Aw0YzTiWRuG6CBluzYIWN5Eo7BkQ==",
       "type": "package",
@@ -17564,6 +19076,54 @@
         "microsoft.toolkit.nuspec"
       ]
     },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Refractored.MvvmHelpers/1.6.2": {
+      "sha512": "pXiyT0ad3QI7IzZSSjVNliyhyyAe7lmNPdfAEgSrtjhF9twrYoKbBlTd58IJc67Fw8QmHEur8F9eBA4rj+BZAg==",
+      "type": "package",
+      "path": "refractored.mvvmhelpers/1.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net461/MvvmHelpers.dll",
+        "lib/net461/MvvmHelpers.pdb",
+        "lib/net461/MvvmHelpers.xml",
+        "lib/netstandard1.0/MvvmHelpers.dll",
+        "lib/netstandard1.0/MvvmHelpers.pdb",
+        "lib/netstandard1.0/MvvmHelpers.xml",
+        "lib/netstandard2.0/MvvmHelpers.dll",
+        "lib/netstandard2.0/MvvmHelpers.pdb",
+        "lib/netstandard2.0/MvvmHelpers.xml",
+        "refractored.mvvmhelpers.1.6.2.nupkg.sha512",
+        "refractored.mvvmhelpers.nuspec"
+      ]
+    },
     "System.Diagnostics.DiagnosticSource/6.0.0": {
       "sha512": "frQDfv0rl209cKm1lnwTgFPzNigy2EKk1BS3uAvHvlBVKe5cymGyHO+Sj+NLv5VF/AhHsqPIUUwya5oV4CHMUw==",
       "type": "package",
@@ -17629,6 +19189,50 @@
         "system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
         "system.runtime.interopservices.nfloat.internal.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Xamarin.Android.Glide/4.12.0.8": {
@@ -19488,23 +21092,32 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-android31.0": [
-      "CommunityToolkit.Mvvm >= 8.0.0",
-      "Microsoft.Maui.Dependencies >= 6.0.547",
-      "Microsoft.Maui.Extensions >= 6.0.547",
-      "Microsoft.Toolkit >= 7.1.2"
-    ],
-    "net6.0-ios15.4": [
+      "CommunityToolkit.Maui >= 1.3.0",
       "CommunityToolkit.Mvvm >= 8.0.0",
       "Microsoft.Maui.Dependencies >= 6.0.547",
       "Microsoft.Maui.Extensions >= 6.0.547",
       "Microsoft.Toolkit >= 7.1.2",
+      "Newtonsoft.Json >= 13.0.1",
+      "Refractored.MvvmHelpers >= 1.6.2"
+    ],
+    "net6.0-ios15.4": [
+      "CommunityToolkit.Maui >= 1.3.0",
+      "CommunityToolkit.Mvvm >= 8.0.0",
+      "Microsoft.Maui.Dependencies >= 6.0.547",
+      "Microsoft.Maui.Extensions >= 6.0.547",
+      "Microsoft.Toolkit >= 7.1.2",
+      "Newtonsoft.Json >= 13.0.1",
+      "Refractored.MvvmHelpers >= 1.6.2",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ],
     "net6.0-maccatalyst15.4": [
+      "CommunityToolkit.Maui >= 1.3.0",
       "CommunityToolkit.Mvvm >= 8.0.0",
       "Microsoft.Maui.Dependencies >= 6.0.547",
       "Microsoft.Maui.Extensions >= 6.0.547",
       "Microsoft.Toolkit >= 7.1.2",
+      "Newtonsoft.Json >= 13.0.1",
+      "Refractored.MvvmHelpers >= 1.6.2",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ]
   },
@@ -19557,6 +21170,10 @@
       "net6.0-android31.0": {
         "targetAlias": "net6.0-android",
         "dependencies": {
+          "CommunityToolkit.Maui": {
+            "target": "Package",
+            "version": "[1.3.0, )"
+          },
           "CommunityToolkit.Mvvm": {
             "target": "Package",
             "version": "[8.0.0, )"
@@ -19572,6 +21189,14 @@
           "Microsoft.Toolkit": {
             "target": "Package",
             "version": "[7.1.2, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
+          "Refractored.MvvmHelpers": {
+            "target": "Package",
+            "version": "[1.6.2, )"
           }
         },
         "imports": [
@@ -19665,6 +21290,10 @@
       "net6.0-ios15.4": {
         "targetAlias": "net6.0-ios",
         "dependencies": {
+          "CommunityToolkit.Maui": {
+            "target": "Package",
+            "version": "[1.3.0, )"
+          },
           "CommunityToolkit.Mvvm": {
             "target": "Package",
             "version": "[8.0.0, )"
@@ -19680,6 +21309,14 @@
           "Microsoft.Toolkit": {
             "target": "Package",
             "version": "[7.1.2, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
+          "Refractored.MvvmHelpers": {
+            "target": "Package",
+            "version": "[1.6.2, )"
           },
           "System.Runtime.InteropServices.NFloat.Internal": {
             "target": "Package",
@@ -19754,6 +21391,10 @@
       "net6.0-maccatalyst15.4": {
         "targetAlias": "net6.0-maccatalyst",
         "dependencies": {
+          "CommunityToolkit.Maui": {
+            "target": "Package",
+            "version": "[1.3.0, )"
+          },
           "CommunityToolkit.Mvvm": {
             "target": "Package",
             "version": "[8.0.0, )"
@@ -19769,6 +21410,14 @@
           "Microsoft.Toolkit": {
             "target": "Package",
             "version": "[7.1.2, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
+          "Refractored.MvvmHelpers": {
+            "target": "Package",
+            "version": "[1.6.2, )"
           },
           "System.Runtime.InteropServices.NFloat.Internal": {
             "target": "Package",
